@@ -41,14 +41,21 @@
         // Math.floor will floor the result within the parenthesis.
         // Could be simplified by creating a function separately for this.
 
-        // function playerNames (playerOneName, playerTwoName, playerOneHealth, playerTwoHealth) {
+        // function playerStatus (playerOneName, playerTwoName, playerOneHealth, playerTwoHealth) {
+
+        // I can use this expression below and develop a function that will allow me to
+
+        // var battleCondition =
+        // ( playerOneH<1 && playerTwoH>1   ? playerTwoH+' Wins!': '')
+        // ( playerTwoH<1 && playerOneH>1   ? PlayerOneH+' Wins!': '')
+        // ( playerOneH <1 && playerTwoH <1 ?        'You both lose.');
+
 
         // playerOneHealth= 100;
         // playerTwoHealth= 100;
 
-        // var myRunTime= (playerOneHealth<1 ? playerTwoName+' Wins!' : '') + (playerTwoHealth<1 ? playerOneName+' Wins!'  : '');
+        // var myRunTime= (playerOneHealth<1 ? playerTwoName+' Wins!' : '') + (playerTwoHealth<1 ? playerOneName+' Wins!'  : '');  // Outdated code
 
-        //var battleCondition = ( playerOneH<1 && playerTwoH>1 ? playerTwoH+' Wins!' : '') (playerTwoH<1 && playerOneH>1 ? PlayerOneH+ ' Wins!' : '')  (playerOneH <1 && playerTwoH <1 ? 'You both lose.')
 
         // I want to create an expression that will run like this
 
