@@ -32,39 +32,45 @@
         // What if I used two functions separately to create the elements needed to run under a console log.
         // An a more advanced expression could run the functions with a ternary expression.
 
+        // var myRunTime= (playerOneHealth<1 ? playerTwoName+' Wins!' : ) +     // Outdated code
+        // (playerTwoHealth<1 ? playerOneName+' Wins!'  : );                    // Outdated code
+
+
         // So the idea is to create separate pieces of code and then run them under one console.log
 
         //
 
         // for (i=0; i<10; i++) {
 
-        // Math.floor will floor the result within the parenthesis.
-        // Could be simplified by creating a function separately for this.
+        // alert(playerOneName+":"+playerOneHealth+"  *START*  "+playerTwoName+":"+playerTwoHealth);
 
         // function playerStatus (playerOneName, playerTwoName, playerOneHealth, playerTwoHealth) {
 
         // I can use this expression below and develop a function that will allow me to
 
+        // returnLog='';
+        // roundOver= alert(playerOneName+":"+playerOneHealth+"  *ROUND "+round+" OVER"+"*  "+playerTwoName+":"+playerTwoHealth);;
+
         // var battleCondition =
-        // ( playerOneH<1 && playerTwoH>1   ? playerTwoH+' Wins!': '')
-        // ( playerTwoH<1 && playerOneH>1   ? PlayerOneH+' Wins!': '')
-        // ( playerOneH <1 && playerTwoH <1 ?        'You both lose.');
+        // ( playerOneH<1 && playerTwoH>1   ? returnLog=alert(playerTwoH+' Wins!'): )
+        // ( playerTwoH<1 && playerOneH>1   ? returnLog=alert(PlayerOneH+' Wins!'): )
+        // ( playerOneH>1 && playerTwoH>1   ? returnLog=roundOver                   )
+        // ( playerOneH<1 && playerTwoH<1   ? returnLog=alert('You both lose.'   )  );
 
 
-        // playerOneHealth= 100;
-        // playerTwoHealth= 100;
-
-        // var myRunTime= (playerOneHealth<1 ? playerTwoName+' Wins!' : '') + (playerTwoHealth<1 ? playerOneName+' Wins!'  : '');  // Outdated code
 
 
-        // I want to create an expression that will run like this
+        // Math.floor will floor the result within the parenthesis.
+        // Could be simplified by creating a function separately for this.
+
+        // function damage (min, max) {
+        // var damageFormula = Math.floor(Math.random() * (max - min) + min)
+
+        //   }
 
         // }
 
-        // function damage (min, max) {
-        // return var damageFormula = Math.floor(Math.random() * (max - min) + min)
 
-        //   }
 
         //
 
