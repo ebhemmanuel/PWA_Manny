@@ -52,6 +52,8 @@
 
         //----------------------------------------*************************************************//
 
+                                     //---Start self-executing function---//
+
         // (function(){
 
         // console.log("FIGHT!!!");
@@ -66,10 +68,15 @@
         //-----------------------------------------***********************************************//
 
 
+                                    //--- Pushes out an alert message--//
+
+
         // alert(playerOneName+":"+playerOneH+"  *START*  "+playerTwoName+":"+playerTwoH);
 
 
-        //---------------Player function to push out status && results***************************//
+        //-----------------------------------------***********************************************//
+
+                                 //Player function to push out status && results//
 
 
         // function playerStatus (playerOneName, playerTwoName, playerOneHealth, playerTwoHealth) {
