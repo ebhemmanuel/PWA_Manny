@@ -6,7 +6,7 @@
  Part 1/3 of series
 */
 
-// self-executing function
+// self-executing function  <- VERY interesting. Self-executing? Hmmm
 (function(){
 
     console.log("FIGHT!!!");
@@ -61,7 +61,7 @@
         alert(playerOneName+":"+playerOneHealth+"  *START*  "+playerTwoName+":"+playerTwoHealth);
         for (var i = 0; i < 10; i++)
         {
-            //random formula is - Math.floor(Math.random() * (max - min) + min);
+            // random formula is - Math.floor(Math.random() * (max - min) + min);
             var minDamage1 = player1Damage * .5;       //Pushes out 20 * .5
             var minDamage2 = player2Damage * .5;       //Pushes out 20 * .5
 
@@ -70,7 +70,7 @@
             var f1 = Math.floor(Math.random()*(player1Damage-minDamage1)+minDamage1);
             var f2 = Math.floor(Math.random()*(player2Damage-minDamage2)+minDamage2);
 
-            //                        f1 and f2 =  Floor it!( // 20 - (20 * .5) + (20 * .5) )
+            // f1 and f2 =  Floor it!( // 20 - (20 * .5) + (20 * .5) )
 
             //inflict damage
             playerOneHealth-=f1;
@@ -85,6 +85,8 @@
             {
                 round++;
                 alert(playerOneName+":"+playerOneHealth+"  *ROUND "+round+" OVER"+"*  "+playerTwoName+":"+playerTwoHealth);
+
+
 
             } else{
                 alert(result);
