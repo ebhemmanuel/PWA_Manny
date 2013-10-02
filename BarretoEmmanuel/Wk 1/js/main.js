@@ -32,17 +32,28 @@
         // What if I used two functions separately to create the elements needed to run under a console log.
         // An a more advanced expression could run the functions with a ternary expression.
 
+        // So the idea is to create separate pieces of code and then run them under one console.log
+
+        //
+
         // for (i=0; i<10; i++) {
 
         // Math.floor will floor the result within the parenthesis.
         // Could be simplified by creating a function separately for this.
 
-        // var
+        // function playerNames (playerOneName, playerTwoName) {
+
+        // var myRunTime= (playerOneHealth<0 ? playerOneTwo+' Wins!' : '') + (playerTwoHealth<0 ? playerTwoName+' Wins!'  : '');
+        // I want to create an expression that will run like this
+
+        // }
 
         // function damage (min, max) {
         // return var damageFormula = Math.floor(Math.random() * (max - min) + min)
 
         //   }
+
+        //
 
         //}
 
