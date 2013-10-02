@@ -12,33 +12,40 @@
     console.log("FIGHT!!!");
 
     //player name
-    var playerOneName = "Spiderman";
-    var playerTwoName = "Batman";
+    var playerOneName   = "Spiderman";
+    var playerTwoName   = "Batman";
 
     //player damage
-    var player1Damage = 20;
-    var player2Damage = 20;
+    var player1Damage   = 20;
+    var player2Damage   = 20;
 
     //player health
     var playerOneHealth = 100;
     var playerTwoHealth = 100;
 
     //initiate round
-    var round=0;
+    var round           =0;
 
     function fight(){
 
         // This whole functions encapsulates every action to run at the end.
         // What if I used two functions separately to create the elements needed to run under a console log.
         // An a more advanced expression could run the functions with a ternary expression.
+
         // for (i=0; i<10; i++) {
-        //
-        //}
+
         // Math.floor will floor the result within the parenthesis.
         // Could be simplified by creating a function separately for this.
+
+        // var
+
         // function damage (min, max) {
         // return var damageFormula = Math.floor(Math.random() * (max - min) + min)
-        // }
+
+        //   }
+
+        //}
+
 
         alert(playerOneName+":"+playerOneHealth+"  *START*  "+playerTwoName+":"+playerTwoHealth);
         for (var i = 0; i < 10; i++)
