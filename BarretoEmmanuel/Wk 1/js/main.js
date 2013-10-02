@@ -28,6 +28,17 @@
 
     function fight(){
 
+
+
+
+
+
+
+
+        //----------------------------------------*************************************************//
+
+        //----------Overview//
+
         // This whole functions encapsulates every action to run at the end.
         // What if I used two functions separately to create the elements needed to run under a console log.
         // An a more advanced expression could run the functions with a ternary expression.
@@ -35,19 +46,25 @@
         // var myRunTime= (playerOneHealth<1 ? playerTwoName+' Wins!' : ) +     // Outdated code
         // (playerTwoHealth<1 ? playerOneName+' Wins!'  : );                    // Outdated code
 
-
+        // Math.floor will floor the result within the parenthesis.
+        // Could be simplified by creating a function separately for this.
         // So the idea is to create separate pieces of code and then run them under one console.log
 
-        //
+        //----------------------------------------*************************************************//
+
+        // (function(){
 
         // for (i=0; i<10; i++) {
 
-        // alert(playerOneName+":"+playerOneHealth+"  *START*  "+playerTwoName+":"+playerTwoHealth);
+        // function damage (min, max)
+        // {var damageFormula = Math.floor(Math.random() * (max - min) + min)}
+
+        // alert(playerOneName+":"+playerOneH+"  *START*  "+playerTwoName+":"+playerTwoH);
 
         // function playerStatus (playerOneName, playerTwoName, playerOneHealth, playerTwoHealth) {
 
         // I can use this expression below and develop a function that will allow me to
-
+        // var round=i;
         // returnLog='';
         // roundOver= alert(playerOneName+":"+playerOneHealth+"  *ROUND "+round+" OVER"+"*  "+playerTwoName+":"+playerTwoHealth);;
 
@@ -57,24 +74,20 @@
         // ( playerOneH>1 && playerTwoH>1   ? returnLog=roundOver                   )
         // ( playerOneH<1 && playerTwoH<1   ? returnLog=alert('You both lose.'   )  );
 
+        //     } //
+
+        //   }  //
+
+        // }   //Closing bracket of the self-executing function
 
 
 
-        // Math.floor will floor the result within the parenthesis.
-        // Could be simplified by creating a function separately for this.
-
-        // function damage (min, max) {
-        // var damageFormula = Math.floor(Math.random() * (max - min) + min)
-
-        //   }
-
-        // }
 
 
 
-        //
 
-        //}
+
+
 
         // Calls out the state of the current name and health of both players.
 
