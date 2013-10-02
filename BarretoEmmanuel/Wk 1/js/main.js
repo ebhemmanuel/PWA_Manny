@@ -7,6 +7,109 @@
 */
 
 // self-executing function  <- VERY interesting. Self-executing? Hmmm
+
+
+    //----------------------------------------*************************************************//
+
+    //----------Overview//
+
+    // This whole functions encapsulates every action to run at the end.
+    // What if I used two functions separately to create the elements needed to run under a console log.
+    // An a more advanced expression could run the functions with a ternary expression.
+
+    // var myRunTime= (playerOneHealth<1 ? playerTwoName+' Wins!' : ) +     // Outdated code
+    // (playerTwoHealth<1 ? playerOneName+' Wins!'  : );                    // Outdated code
+
+    // Math.floor will floor the result within the parenthesis.
+    // Could be simplified by creating a function separately for this.
+    // So the idea is to create separate pieces of code and then run them under one console.log
+
+    //----------------------------------------*************************************************//
+
+
+    //---Start self-executing function---//
+
+
+    // (function(){
+
+    // console.log("FIGHT!!!");
+
+    // for (i=0; i<10; i++) {
+
+
+    //...................................................................//
+
+
+    //--- Pushes out an alert message--//
+
+
+    // alert(playerOneName+":"+playerOneH+"  *START*  "+playerTwoName+":"+playerTwoH);
+
+
+    //...................................................................//
+
+
+    //Player function to push out status && results - Long Part//
+
+
+    // function playerStatus (playerOneName, playerTwoName, playerOneHealth, playerTwoHealth) {
+
+    // var round= i;
+    // returnLog='';
+    // roundOver= alert(playerOneName+":"+playerOneHealth+"  *ROUND "+round+" OVER"+"*  "+playerTwoName+":"+playerTwoHealth);;
+
+
+
+    //-----------------------------------------//
+
+
+
+    //-----------Damage Formula//
+
+
+
+    // function damage (min, max)
+    // {
+    // var    playerDamage = Math.floor(Math.random() * (max - min) + min)
+    // return playerDamage;
+
+    // }
+
+    //  playerOneH-=damage(20, 25);
+    //  playerTwoH-=damage(20, 25);
+
+    //...................................................................//
+
+
+    // I can use this expression below and develop a function that will allow me to contain the conditionals within an expression.
+
+    // var battleCondition =
+    // ( playerOneH<1 && playerTwoH>1   ? returnLog= alert(playerTwoH+' Wins!'): )     // If playerOne health reaches 0 playerTwo Wins!
+    // ( playerTwoH<1 && playerOneH>1   ? returnLog= alert(PlayerOneH+' Wins!'): )     // If playerTwo health reaches 0 playerOne Wins!
+    // ( playerOneH>1 && playerTwoH>1   ? returnLog= roundOver                   )     // Round over log session
+    // ( playerOneH<1 && playerTwoH<1   ? returnLog= alert('Draw!'   )  );    //       // Draw!
+
+
+    //...................................................................//
+
+    //      return returnLog;
+
+    //     } //Closing bracket of the function
+
+    //   }  // Closing bracket of the loop
+
+    // }   //  Closing bracket of the self-executing function
+
+
+
+
+    //-----------------------------------------***********************************************//
+
+
+
+
+
+
 (function(){
 
     console.log("FIGHT!!!");
@@ -27,88 +130,6 @@
     var round           =0;
 
     function fight(){
-
-
-
-
-
-
-
-
-        //----------------------------------------*************************************************//
-
-        //----------Overview//
-
-        // This whole functions encapsulates every action to run at the end.
-        // What if I used two functions separately to create the elements needed to run under a console log.
-        // An a more advanced expression could run the functions with a ternary expression.
-
-        // var myRunTime= (playerOneHealth<1 ? playerTwoName+' Wins!' : ) +     // Outdated code
-        // (playerTwoHealth<1 ? playerOneName+' Wins!'  : );                    // Outdated code
-
-        // Math.floor will floor the result within the parenthesis.
-        // Could be simplified by creating a function separately for this.
-        // So the idea is to create separate pieces of code and then run them under one console.log
-
-        //----------------------------------------*************************************************//
-
-                                     //---Start self-executing function---//
-
-        // (function(){
-
-        // console.log("FIGHT!!!");
-
-        // for (i=0; i<10; i++) {
-
-        //-----------Damage Formula//
-
-        // function damage (min, max)
-        // {var damageFormula = Math.floor(Math.random() * (max - min) + min)}
-
-        //-----------------------------------------***********************************************//
-
-
-                                    //--- Pushes out an alert message--//
-
-
-        // alert(playerOneName+":"+playerOneH+"  *START*  "+playerTwoName+":"+playerTwoH);
-
-
-        //-----------------------------------------***********************************************//
-
-                                 //Player function to push out status && results//
-
-
-        // function playerStatus (playerOneName, playerTwoName, playerOneHealth, playerTwoHealth) {
-
-        // var round= i;
-        // returnLog='';
-        // roundOver= alert(playerOneName+":"+playerOneHealth+"  *ROUND "+round+" OVER"+"*  "+playerTwoName+":"+playerTwoHealth);;
-
-        //-----------------------------------------//
-
-        // I can use this expression below and develop a function that will allow me to contain the conditionals within an expression.
-
-        // var battleCondition =
-        // ( playerOneH<1 && playerTwoH>1   ? returnLog= alert(playerTwoH+' Wins!'): )
-        // ( playerTwoH<1 && playerOneH>1   ? returnLog= alert(PlayerOneH+' Wins!'): )
-        // ( playerOneH>1 && playerTwoH>1   ? returnLog= roundOver                   )
-        // ( playerOneH<1 && playerTwoH<1   ? returnLog= alert('You both lose.'   )  );
-
-        //--------------//
-
-        //     } //Closing bracket of the function
-
-        //   }  // Closing bracket of the loop
-
-        // }   //  Closing bracket of the self-executing function
-
-
-
-
-
-
-
 
 
 
