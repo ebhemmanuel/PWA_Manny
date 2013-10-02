@@ -41,9 +41,15 @@
         // Math.floor will floor the result within the parenthesis.
         // Could be simplified by creating a function separately for this.
 
-        // function playerNames (playerOneName, playerTwoName) {
+        // function playerNames (playerOneName, playerTwoName, playerOneHealth, playerTwoHealth) {
 
-        // var myRunTime= (playerOneHealth<0 ? playerOneTwo+' Wins!' : '') + (playerTwoHealth<0 ? playerTwoName+' Wins!'  : '');
+        // playerOneHealth= 100;
+        // playerTwoHealth= 100;
+
+        // var myRunTime= (playerOneHealth<1 ? playerTwoName+' Wins!' : '') + (playerTwoHealth<1 ? playerOneName+' Wins!'  : '');
+
+        //var battleCondition = ( playerOneH<1 && playerTwoH>1 ? playerTwoH+' Wins!' : '') (playerTwoH<1 && playerOneH>1 ? PlayerOneH+ ' Wins!' : '')  (playerOneH <1 && playerTwoH <1 ? 'You both lose.')
+
         // I want to create an expression that will run like this
 
         // }
@@ -57,11 +63,16 @@
 
         //}
 
+        // Calls out the state of the current name and health of both players.
 
         alert(playerOneName+":"+playerOneHealth+"  *START*  "+playerTwoName+":"+playerTwoHealth);
+
+        //
+
         for (var i = 0; i < 10; i++)
         {
             // random formula is - Math.floor(Math.random() * (max - min) + min);
+
             var minDamage1 = player1Damage * .5;       //Pushes out 20 * .5
             var minDamage2 = player2Damage * .5;       //Pushes out 20 * .5
 
@@ -98,11 +109,8 @@
 
     function winnerCheck(){
         var result="no winner";
-        if (playerOneHealth<1 && playerTwoHealth<1)
-        {
-            result = "You Both Die";
-        } else if(playerOneHealth<1){
-            result =playerTwoName+" WINS!!!"
+             if (playerOneHealth<1 && playerTwoHealth<1)  {result = "You Both Die";}
+        else if (playerOneHealth<1)                       {result =playerTwoName+" WINS!!!"
         } else if (playerTwoHealth<1)
         {
             result = playerOneName+" WINS!!!"
