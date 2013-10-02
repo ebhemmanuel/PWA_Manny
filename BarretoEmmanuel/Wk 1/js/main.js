@@ -1,17 +1,20 @@
 /**
- * Duel Fight Game - FINISHED
- * Date: 4/09/13
-
- Assignment 1
- Part 1/3 of series
-*/
-
-// self-executing function  <- VERY interesting. Self-executing? Hmmm
+ * Created with JetBrains WebStorm.
+ * User: emmanuelbarreto
+ * Date: 9/12/13
+ * Time: 8:29 PM
+ * To change this template use File | Settings | File Templates.
+ */
+    //  Emmanuel Barreto // Thursday September 12, 2013 //
+    //  Assignment 1
+    //  Part 1/3 of series
 
 
     //----------------------------------------*************************************************//
 
+
     //----------Overview//
+
 
     // This whole functions encapsulates every action to run at the end.
     // What if I used two functions separately to create the elements needed to run under a console log.
@@ -24,10 +27,11 @@
     // Could be simplified by creating a function separately for this.
     // So the idea is to create separate pieces of code and then run them under one console.log
 
+
     //----------------------------------------*************************************************//
 
 
-    //---Start self-executing function---//
+    //------------Start self-executing function//
 
 
     // (function(){
@@ -40,7 +44,7 @@
     //...................................................................//
 
 
-    //--- Pushes out an alert message--//
+    //-----------Pushes out an alert message//
 
 
     // alert(playerOneName+":"+playerOneH+"  *START*  "+playerTwoName+":"+playerTwoH);
@@ -60,13 +64,9 @@
 
 
 
-    //-----------------------------------------//
+    //...................................................................//
 
-
-
-    //-----------Damage Formula//
-
-
+    //-------------Damage Formula//
 
     // function damage (min, max)
     // {
@@ -99,8 +99,6 @@
     //   }  // Closing bracket of the loop
 
     // }   //  Closing bracket of the self-executing function
-
-
 
 
     //-----------------------------------------***********************************************//
