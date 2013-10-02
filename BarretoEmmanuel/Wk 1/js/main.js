@@ -54,31 +54,47 @@
 
         // (function(){
 
+        // console.log("FIGHT!!!");
+
         // for (i=0; i<10; i++) {
+
+        //-----------Damage Formula//
 
         // function damage (min, max)
         // {var damageFormula = Math.floor(Math.random() * (max - min) + min)}
 
+        //-----------------------------------------***********************************************//
+
+
         // alert(playerOneName+":"+playerOneH+"  *START*  "+playerTwoName+":"+playerTwoH);
+
+
+        //---------------Player function to push out status && results***************************//
+
 
         // function playerStatus (playerOneName, playerTwoName, playerOneHealth, playerTwoHealth) {
 
-        // I can use this expression below and develop a function that will allow me to
-        // var round=i;
+        // var round= i;
         // returnLog='';
         // roundOver= alert(playerOneName+":"+playerOneHealth+"  *ROUND "+round+" OVER"+"*  "+playerTwoName+":"+playerTwoHealth);;
 
+        //-----------------------------------------//
+
+        // I can use this expression below and develop a function that will allow me to contain the conditionals within an expression.
+
         // var battleCondition =
-        // ( playerOneH<1 && playerTwoH>1   ? returnLog=alert(playerTwoH+' Wins!'): )
-        // ( playerTwoH<1 && playerOneH>1   ? returnLog=alert(PlayerOneH+' Wins!'): )
-        // ( playerOneH>1 && playerTwoH>1   ? returnLog=roundOver                   )
-        // ( playerOneH<1 && playerTwoH<1   ? returnLog=alert('You both lose.'   )  );
+        // ( playerOneH<1 && playerTwoH>1   ? returnLog= alert(playerTwoH+' Wins!'): )
+        // ( playerTwoH<1 && playerOneH>1   ? returnLog= alert(PlayerOneH+' Wins!'): )
+        // ( playerOneH>1 && playerTwoH>1   ? returnLog= roundOver                   )
+        // ( playerOneH<1 && playerTwoH<1   ? returnLog= alert('You both lose.'   )  );
 
-        //     } //
+        //--------------//
 
-        //   }  //
+        //     } //Closing bracket of the function
 
-        // }   //Closing bracket of the self-executing function
+        //   }  // Closing bracket of the loop
+
+        // }   //  Closing bracket of the self-executing function
 
 
 
