@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f972fb24-1621-4ca5-b0e1-3db59e954b4a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BarretoEmmanuel/Wk 1/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BarretoEmmanuel/Wk 1/images/fight_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BarretoEmmanuel/Wk 1/images/grey_wash_wall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BarretoEmmanuel/Wk 1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BarretoEmmanuel/Wk 1/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BarretoEmmanuel/Wk 2/JS/javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BarretoEmmanuel/Wk 2/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BarretoEmmanuel/Wk 1/goal1_duel1/js/main.js" afterPath="$PROJECT_DIR$/BarretoEmmanuel/Wk 1/goal1_duel1/js/main.js" />
     </list>
     <ignored path="PWA_Manny.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f972fb24-1621-4ca5-b0e1-3db59e954b4a" time="1380656754119" ignored="false" />
     <file path="/javascript.js" changelist="f972fb24-1621-4ca5-b0e1-3db59e954b4a" time="1380657471798" ignored="false" />
-    <file path="/main.js" changelist="f972fb24-1621-4ca5-b0e1-3db59e954b4a" time="1380757620349" ignored="false" />
+    <file path="/main.js" changelist="f972fb24-1621-4ca5-b0e1-3db59e954b4a" time="1380824510185" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BarretoEmmanuel/Wk 1/goal1_duel1/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.46391752">
+            <state line="41" column="0" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.2542595">
               <folding />
             </state>
           </provider>
@@ -73,6 +67,7 @@
         <option value="$PROJECT_DIR$/Week 1/index.html" />
         <option value="$PROJECT_DIR$/Week 1/JS/javascript.js" />
         <option value="$PROJECT_DIR$/BarretoEmmanuel/Wk 1/js/main.js" />
+        <option value="$PROJECT_DIR$/BarretoEmmanuel/Wk 1/goal1_duel1/js/main.js" />
       </list>
     </option>
   </component>
@@ -320,7 +315,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BarretoEmmanuel/Wk 1/goal1_duel1/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.46391752">
+        <state line="41" column="0" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.2542595">
           <folding />
         </state>
       </provider>
