@@ -38,72 +38,68 @@
 
     console.log("FIGHT!!!");
 
-    for (i=0; i<10; i++) {
-
-
 
     //...................................................................//
 
 
     //Player function to push out status && results - Long Part//
 
+            //-------------Damage Formula//
 
-    function playerStatus (playerOneName, playerTwoName, playerOneH, playerTwoH) {
+             function damage (max,min)
+            {return Math.floor(Math.random() * (max - (max*.5)+min));}
 
-    var round= i;
-    var returnLog='';
-    var roundOver= alert(playerOneName+":"+playerOneH+"  *ROUND "+round+" OVER"+"*  "+playerTwoName+":"+playerTwoH);
+            //-------------------------//
 
-        playerOneName= '';
-        playerTwoName= '';
+                var playerOneH = 100;
+                var playerTwoH = 100;
+                var playerOneName= 'Spider Man';
+                var playerTwoName= 'Bat Man';
 
-    //...................................................................//
+        var roundStart= alert(playerOneName + ":" + playerOneH + "  *START*  " + playerTwoName + ":" + playerTwoH);
 
-    //-------------Damage Formula//
-
-    function damage (min, max)                                                        //
-    {
-
-    var    playerDamage= Math.floor(Math.random() * (max - min) + min);               //
-    return playerDamage;
-
-    }
-
-      var damageTaken= [playerOneH-=damage(20, 25), playerTwoH-=damage(20, 25)];                                                        //
-                                                        //
+//            console.log(roundStart);
 
     //...................................................................//
 
+        var playerOneWins= 'Player Ones Wins';
+        var playerTwoWins= 'Player Two Wins';
+        var draw='Draw';
 
-    // I can use this expression below and develop a function that will allow me to contain the conditionals within an expression.
+        var round     = 0 ;
 
-     var battleCondition =
-
-     ( playerOneH>99 && playerTwoH>99  ? returnLog= alert(playerOneName+":"+playerOneH+"  *START*  "+playerTwoName+":"+playerTwoH))
-
-     // Round Start!
-
-     ( playerOneH>1  && playerTwoH>1 && playerOneH<99 && playerTwoH<99  ? returnLog= roundOver                   :'')
-
-     // Round over log session     ( playerOneH<1  && playerTwoH>1   ? returnLog= alert(playerTwoH+' Wins!')                                   :'')            // If playerOne health reaches 0 playerTwo Wins!
-
-     ( playerTwoH<1  && playerOneH>1   ? returnLog= alert(playerOneH+' Wins!')   :'')            // If playerTwo health reaches 0 playerOne Wins!
-     ( playerOneH<1  && playerTwoH<1   ? returnLog= alert('Draw!'            )   :'');           // Draw!
+                for (i=0; i<10; i++) {
 
 
-    //...................................................................//
+//        /*else*/ if( playerOneH>1  && playerTwoH>1){returnLog = roundOver                }
+                             if( playerTwoH<1)                 {alert('Player One Wins!'); break;}
+                        else if( playerOneH<1)                 {alert('Player Two Wins!'); break;}
 
-          return returnLog;
-
-         }   // Closing bracket of the function
+                        else if( playerTwoH<1  && playerOneH<1){alert('Draw!')           }
 
 
-       }    // Closing bracket of the loop
+                        //...................................................................//
 
-    })()    // Closing bracket of the self-executing function
+
+
+                    playerOneH-=damage(20,20);
+                    playerTwoH-=damage(20,20);
+                     round ++;
+                    var endRound  = console.log(playerOneName +' '+ playerOneH + ' ' + playerTwoName + ' ' + playerTwoH);
+                    var roundOver = alert(playerOneName + ":"+playerOneH+" *ROUND "+round+" OVER"+"*  "+playerTwoName+":"+playerTwoH);
+
+//                    if ()
+
+                }; //
+
+
+    })();    // Closing bracket of the self-executing function
 
 
     //-----------------------------------------***********************************************//
+
+
+
 
 
 

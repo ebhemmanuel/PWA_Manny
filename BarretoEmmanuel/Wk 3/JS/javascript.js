@@ -1,12 +1,39 @@
-/*
- *Emmanuel Barreto // Tuesday October 1, 2013 // * Date: 10/1/13
- * Time: 5\10:30 AM
- * To change this template use File | Settings | File Templates. */
+/**
+ * Created with JetBrains WebStorm.
+ * User: emmanuelbarreto
+ * Date: 10/15/13
+ * Time: 10:41 AM
+ * To change this template use File | Settings | File Templates.
+ */
 
-function randomInt (min,max) {
+(function(){
 
-    return Math.floor(Math.random()*(max-min+1)+min;)
+    var cars = [];
 
-}
+    function Car (s,m,c) {  // constructor function
 
-function
+        this.model= m;
+        this.color= c;
+        this.type = s;
+        //p.push(this); this could run inside, but not a good practice.
+    }
+
+
+
+     var myCar = new Car();
+     var hisCars = new Car('Bum','Bam','Brim');
+     var themCars=[];
+
+    cars.push(myCar,hisCars);
+
+    cars = [new Car('Boom','Red','Ler'), new Car('Brim','Blam','Bloom')];
+
+    cars.forEach(function(e){
+
+        console.log(e.model);
+
+    })
+
+
+
+})();
